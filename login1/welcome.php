@@ -24,6 +24,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
         <h1>Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome.</h1>
     </div>
     <p>Normal user loged in.</p>
+    <a href="/adminlogin/login.php">Admin Login</a>
 
     <p><a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a></p>
 </body>
